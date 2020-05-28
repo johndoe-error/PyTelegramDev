@@ -1,2 +1,2 @@
 # PyTelegramDev
-PyTelegramDev Source Code by @J_doe.
+PyTelegramDev Source Code by @J_doe for @ENTER_ERROR
