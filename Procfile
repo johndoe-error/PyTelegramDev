@@ -1,0 +1,1 @@
+worker: python3 pytelegramdev_git.py
