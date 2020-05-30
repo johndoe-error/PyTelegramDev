@@ -10,7 +10,7 @@ def start(message):
 @bot.message_handler(commands=['json'])
 def json(message):
     bot.send_message(message.chat.id, message)
-
+# Вбъцгтфюср!
 @bot.message_handler(commands=['info'])
 def info(message):
     bot.send_message(message.chat.id, '👨‍💻' + message.from_user.first_name + ' ' + message.from_user.last_name + '\n' + '📢' + '@' + message.from_user.username + '\n'+ '🎟' + str(message.from_user.id) + '\n' + '💬' + str(message.chat.id)) 
@@ -34,7 +34,7 @@ def video(message):
 @bot.message_handler(content_types=['audio'])
 def audio(message):
     bot.send_message(message.chat.id, message.audio)
-
+# АТВЫКЫ ЭБЦБФБЧ ДЮБФБ "Ичътго ёуыю Угёет" @Mieri_1 ы вбюёйы дфбь вгыъ, вбебгбвыдо!)
 @bot.message_handler(content_types=['document'])
 def document(message):
     bot.send_message(message.chat.id, message.document)
