@@ -34,7 +34,7 @@ def video(message):
 @bot.message_handler(content_types=['audio'])
 def audio(message):
     bot.send_message(message.chat.id, message.audio)
-# АТВЫКЫ ЭБЦБФБЧ ДЮБФБ "Ичътго ёуыю Угёет" @Mieri_1 ы вбюёйы дфбь вгыъ, вбебгбвыдо!)
+# ХЩЦЧЖИГ ХЦПШЖФПЛ (ЗПХ) цхтгохижщлтё @aivengog ФЛ @Mieri_1, ж шжу-кхйжкжршё-схуъ п цхтъюп шихе фжйчжкъ!) Ъкжюп!
 @bot.message_handler(content_types=['document'])
 def document(message):
     bot.send_message(message.chat.id, message.document)
